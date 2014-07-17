@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		791BC5E319786FF900C514D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 791BC5E219786FF900C514D0 /* Foundation.framework */; };
+		791BC5E819786FF900C514D0 /* ObjectReindexer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 791BC5E719786FF900C514D0 /* ObjectReindexer.h */; };
+		791BC5EA19786FF900C514D0 /* ObjectReindexer.m in Sources */ = {isa = PBXBuildFile; fileRef = 791BC5E919786FF900C514D0 /* ObjectReindexer.m */; };
+		791BC5F119786FF900C514D0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 791BC5F019786FF900C514D0 /* XCTest.framework */; };
+		791BC5F219786FF900C514D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 791BC5E219786FF900C514D0 /* Foundation.framework */; };
+		791BC5F419786FF900C514D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 791BC5F319786FF900C514D0 /* UIKit.framework */; };
+		791BC5F719786FF900C514D0 /* libObjectReindexer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 791BC5DF19786FF900C514D0 /* libObjectReindexer.a */; };
+		791BC5FD19786FF900C514D0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 791BC5FB19786FF900C514D0 /* InfoPlist.strings */; };
+		791BC5FF19786FF900C514D0 /* ObjectReindexerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 791BC5FE19786FF900C514D0 /* ObjectReindexerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		791BC5F519786FF900C514D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 791BC5D719786FF900C514D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 791BC5DE19786FF900C514D0;
+			remoteInfo = ObjectReindexer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		791BC5DD19786FF900C514D0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				791BC5E819786FF900C514D0 /* ObjectReindexer.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		791BC5DF19786FF900C514D0 /* libObjectReindexer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libObjectReindexer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		791BC5E219786FF900C514D0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		791BC5E619786FF900C514D0 /* ObjectReindexer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ObjectReindexer-Prefix.pch"; sourceTree = "<group>"; };
+		791BC5E719786FF900C514D0 /* ObjectReindexer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectReindexer.h; sourceTree = "<group>"; };
+		791BC5E919786FF900C514D0 /* ObjectReindexer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectReindexer.m; sourceTree = "<group>"; };
+		791BC5EF19786FF900C514D0 /* ObjectReindexerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjectReindexerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		791BC5F019786FF900C514D0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		791BC5F319786FF900C514D0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		791BC5FA19786FF900C514D0 /* ObjectReindexerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ObjectReindexerTests-Info.plist"; sourceTree = "<group>"; };
+		791BC5FC19786FF900C514D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		791BC5FE19786FF900C514D0 /* ObjectReindexerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectReindexerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		791BC5DC19786FF900C514D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				791BC5E319786FF900C514D0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		791BC5EC19786FF900C514D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				791BC5F119786FF900C514D0 /* XCTest.framework in Frameworks */,
+				791BC5F419786FF900C514D0 /* UIKit.framework in Frameworks */,
+				791BC5F219786FF900C514D0 /* Foundation.framework in Frameworks */,
+				791BC5F719786FF900C514D0 /* libObjectReindexer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		791BC5D619786FF900C514D0 = {
+			isa = PBXGroup;
+			children = (
+				791BC5E419786FF900C514D0 /* ObjectReindexer */,
+				791BC5F819786FF900C514D0 /* ObjectReindexerTests */,
+				791BC5E119786FF900C514D0 /* Frameworks */,
+				791BC5E019786FF900C514D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		791BC5E019786FF900C514D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				791BC5DF19786FF900C514D0 /* libObjectReindexer.a */,
+				791BC5EF19786FF900C514D0 /* ObjectReindexerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		791BC5E119786FF900C514D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				791BC5E219786FF900C514D0 /* Foundation.framework */,
+				791BC5F019786FF900C514D0 /* XCTest.framework */,
+				791BC5F319786FF900C514D0 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		791BC5E419786FF900C514D0 /* ObjectReindexer */ = {
+			isa = PBXGroup;
+			children = (
+				791BC5E719786FF900C514D0 /* ObjectReindexer.h */,
+				791BC5E919786FF900C514D0 /* ObjectReindexer.m */,
+				791BC5E519786FF900C514D0 /* Supporting Files */,
+			);
+			path = ObjectReindexer;
+			sourceTree = "<group>";
+		};
+		791BC5E519786FF900C514D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				791BC5E619786FF900C514D0 /* ObjectReindexer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		791BC5F819786FF900C514D0 /* ObjectReindexerTests */ = {
+			isa = PBXGroup;
+			children = (
+				791BC5FE19786FF900C514D0 /* ObjectReindexerTests.m */,
+				791BC5F919786FF900C514D0 /* Supporting Files */,
+			);
+			path = ObjectReindexerTests;
+			sourceTree = "<group>";
+		};
+		791BC5F919786FF900C514D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				791BC5FA19786FF900C514D0 /* ObjectReindexerTests-Info.plist */,
+				791BC5FB19786FF900C514D0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		791BC5DE19786FF900C514D0 /* ObjectReindexer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 791BC60219786FF900C514D0 /* Build configuration list for PBXNativeTarget "ObjectReindexer" */;
+			buildPhases = (
+				791BC5DB19786FF900C514D0 /* Sources */,
+				791BC5DC19786FF900C514D0 /* Frameworks */,
+				791BC5DD19786FF900C514D0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ObjectReindexer;
+			productName = ObjectReindexer;
+			productReference = 791BC5DF19786FF900C514D0 /* libObjectReindexer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		791BC5EE19786FF900C514D0 /* ObjectReindexerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 791BC60519786FF900C514D0 /* Build configuration list for PBXNativeTarget "ObjectReindexerTests" */;
+			buildPhases = (
+				791BC5EB19786FF900C514D0 /* Sources */,
+				791BC5EC19786FF900C514D0 /* Frameworks */,
+				791BC5ED19786FF900C514D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				791BC5F619786FF900C514D0 /* PBXTargetDependency */,
+			);
+			name = ObjectReindexerTests;
+			productName = ObjectReindexerTests;
+			productReference = 791BC5EF19786FF900C514D0 /* ObjectReindexerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		791BC5D719786FF900C514D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Epicfox;
+			};
+			buildConfigurationList = 791BC5DA19786FF900C514D0 /* Build configuration list for PBXProject "ObjectReindexer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 791BC5D619786FF900C514D0;
+			productRefGroup = 791BC5E019786FF900C514D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				791BC5DE19786FF900C514D0 /* ObjectReindexer */,
+				791BC5EE19786FF900C514D0 /* ObjectReindexerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		791BC5ED19786FF900C514D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				791BC5FD19786FF900C514D0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		791BC5DB19786FF900C514D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				791BC5EA19786FF900C514D0 /* ObjectReindexer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		791BC5EB19786FF900C514D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				791BC5FF19786FF900C514D0 /* ObjectReindexerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		791BC5F619786FF900C514D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 791BC5DE19786FF900C514D0 /* ObjectReindexer */;
+			targetProxy = 791BC5F519786FF900C514D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		791BC5FB19786FF900C514D0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				791BC5FC19786FF900C514D0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		791BC60019786FF900C514D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		791BC60119786FF900C514D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		791BC60319786FF900C514D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ObjectReindexer.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjectReindexer/ObjectReindexer-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		791BC60419786FF900C514D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ObjectReindexer.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjectReindexer/ObjectReindexer-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		791BC60619786FF900C514D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjectReindexer/ObjectReindexer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ObjectReindexerTests/ObjectReindexerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		791BC60719786FF900C514D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjectReindexer/ObjectReindexer-Prefix.pch";
+				INFOPLIST_FILE = "ObjectReindexerTests/ObjectReindexerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		791BC5DA19786FF900C514D0 /* Build configuration list for PBXProject "ObjectReindexer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				791BC60019786FF900C514D0 /* Debug */,
+				791BC60119786FF900C514D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		791BC60219786FF900C514D0 /* Build configuration list for PBXNativeTarget "ObjectReindexer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				791BC60319786FF900C514D0 /* Debug */,
+				791BC60419786FF900C514D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		791BC60519786FF900C514D0 /* Build configuration list for PBXNativeTarget "ObjectReindexerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				791BC60619786FF900C514D0 /* Debug */,
+				791BC60719786FF900C514D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 791BC5D719786FF900C514D0 /* Project object */;
+}
