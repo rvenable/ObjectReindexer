@@ -6,8 +6,4 @@
 //  Copyright (c) 2014 Epicfox. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-
-@interface ObjectReindexer : NSObject
-
-@end
+#import "SCObjectReindexer.h"

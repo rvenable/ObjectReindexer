@@ -9,13 +9,19 @@
 /* Begin PBXBuildFile section */
 		791BC5E319786FF900C514D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 791BC5E219786FF900C514D0 /* Foundation.framework */; };
 		791BC5E819786FF900C514D0 /* ObjectReindexer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 791BC5E719786FF900C514D0 /* ObjectReindexer.h */; };
-		791BC5EA19786FF900C514D0 /* ObjectReindexer.m in Sources */ = {isa = PBXBuildFile; fileRef = 791BC5E919786FF900C514D0 /* ObjectReindexer.m */; };
 		791BC5F119786FF900C514D0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 791BC5F019786FF900C514D0 /* XCTest.framework */; };
 		791BC5F219786FF900C514D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 791BC5E219786FF900C514D0 /* Foundation.framework */; };
 		791BC5F419786FF900C514D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 791BC5F319786FF900C514D0 /* UIKit.framework */; };
 		791BC5F719786FF900C514D0 /* libObjectReindexer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 791BC5DF19786FF900C514D0 /* libObjectReindexer.a */; };
 		791BC5FD19786FF900C514D0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 791BC5FB19786FF900C514D0 /* InfoPlist.strings */; };
 		791BC5FF19786FF900C514D0 /* ObjectReindexerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 791BC5FE19786FF900C514D0 /* ObjectReindexerTests.m */; };
+		791BC6151978704900C514D0 /* SCObjectReindexer.m in Sources */ = {isa = PBXBuildFile; fileRef = 791BC60B1978704800C514D0 /* SCObjectReindexer.m */; };
+		791BC6161978704900C514D0 /* SCFlexibleIntervalReindexer.m in Sources */ = {isa = PBXBuildFile; fileRef = 791BC60D1978704800C514D0 /* SCFlexibleIntervalReindexer.m */; };
+		791BC6171978704900C514D0 /* SCFixedIntervalReindexer.m in Sources */ = {isa = PBXBuildFile; fileRef = 791BC60F1978704900C514D0 /* SCFixedIntervalReindexer.m */; };
+		791BC6181978704900C514D0 /* SCFloatingReindexerValueFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 791BC6111978704900C514D0 /* SCFloatingReindexerValueFactory.m */; };
+		791BC6191978704900C514D0 /* SCIntegerReindexerValueFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 791BC6131978704900C514D0 /* SCIntegerReindexerValueFactory.m */; };
+		791BC6281978718500C514D0 /* SCObjectReindexerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 791BC6261978718500C514D0 /* SCObjectReindexerTests.m */; };
+		791BC62C19796A3D00C514D0 /* NSIndexPath+RowIndexSets.m in Sources */ = {isa = PBXBuildFile; fileRef = 791BC62B19796A3D00C514D0 /* NSIndexPath+RowIndexSets.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,13 +52,25 @@
 		791BC5E219786FF900C514D0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		791BC5E619786FF900C514D0 /* ObjectReindexer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ObjectReindexer-Prefix.pch"; sourceTree = "<group>"; };
 		791BC5E719786FF900C514D0 /* ObjectReindexer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectReindexer.h; sourceTree = "<group>"; };
-		791BC5E919786FF900C514D0 /* ObjectReindexer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectReindexer.m; sourceTree = "<group>"; };
 		791BC5EF19786FF900C514D0 /* ObjectReindexerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjectReindexerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		791BC5F019786FF900C514D0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		791BC5F319786FF900C514D0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		791BC5FA19786FF900C514D0 /* ObjectReindexerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ObjectReindexerTests-Info.plist"; sourceTree = "<group>"; };
 		791BC5FC19786FF900C514D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		791BC5FE19786FF900C514D0 /* ObjectReindexerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectReindexerTests.m; sourceTree = "<group>"; };
+		791BC60A1978704800C514D0 /* SCObjectReindexer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCObjectReindexer.h; sourceTree = "<group>"; };
+		791BC60B1978704800C514D0 /* SCObjectReindexer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCObjectReindexer.m; sourceTree = "<group>"; };
+		791BC60C1978704800C514D0 /* SCFlexibleIntervalReindexer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCFlexibleIntervalReindexer.h; sourceTree = "<group>"; };
+		791BC60D1978704800C514D0 /* SCFlexibleIntervalReindexer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCFlexibleIntervalReindexer.m; sourceTree = "<group>"; };
+		791BC60E1978704900C514D0 /* SCFixedIntervalReindexer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCFixedIntervalReindexer.h; sourceTree = "<group>"; };
+		791BC60F1978704900C514D0 /* SCFixedIntervalReindexer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCFixedIntervalReindexer.m; sourceTree = "<group>"; };
+		791BC6101978704900C514D0 /* SCFloatingReindexerValueFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCFloatingReindexerValueFactory.h; sourceTree = "<group>"; };
+		791BC6111978704900C514D0 /* SCFloatingReindexerValueFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCFloatingReindexerValueFactory.m; sourceTree = "<group>"; };
+		791BC6121978704900C514D0 /* SCIntegerReindexerValueFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCIntegerReindexerValueFactory.h; sourceTree = "<group>"; };
+		791BC6131978704900C514D0 /* SCIntegerReindexerValueFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCIntegerReindexerValueFactory.m; sourceTree = "<group>"; };
+		791BC6261978718500C514D0 /* SCObjectReindexerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCObjectReindexerTests.m; sourceTree = "<group>"; };
+		791BC62A19796A3D00C514D0 /* NSIndexPath+RowIndexSets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSIndexPath+RowIndexSets.h"; sourceTree = "<group>"; };
+		791BC62B19796A3D00C514D0 /* NSIndexPath+RowIndexSets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSIndexPath+RowIndexSets.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +129,9 @@
 			isa = PBXGroup;
 			children = (
 				791BC5E719786FF900C514D0 /* ObjectReindexer.h */,
-				791BC5E919786FF900C514D0 /* ObjectReindexer.m */,
+				791BC6241978715500C514D0 /* Object Reindexers */,
+				791BC6251978716100C514D0 /* Value Factories */,
+				791BC62D19796AA600C514D0 /* Categories */,
 				791BC5E519786FF900C514D0 /* Supporting Files */,
 			);
 			path = ObjectReindexer;
@@ -129,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				791BC5FE19786FF900C514D0 /* ObjectReindexerTests.m */,
+				791BC6261978718500C514D0 /* SCObjectReindexerTests.m */,
 				791BC5F919786FF900C514D0 /* Supporting Files */,
 			);
 			path = ObjectReindexerTests;
@@ -141,6 +162,39 @@
 				791BC5FB19786FF900C514D0 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		791BC6241978715500C514D0 /* Object Reindexers */ = {
+			isa = PBXGroup;
+			children = (
+				791BC60A1978704800C514D0 /* SCObjectReindexer.h */,
+				791BC60B1978704800C514D0 /* SCObjectReindexer.m */,
+				791BC60C1978704800C514D0 /* SCFlexibleIntervalReindexer.h */,
+				791BC60D1978704800C514D0 /* SCFlexibleIntervalReindexer.m */,
+				791BC60E1978704900C514D0 /* SCFixedIntervalReindexer.h */,
+				791BC60F1978704900C514D0 /* SCFixedIntervalReindexer.m */,
+			);
+			name = "Object Reindexers";
+			sourceTree = "<group>";
+		};
+		791BC6251978716100C514D0 /* Value Factories */ = {
+			isa = PBXGroup;
+			children = (
+				791BC6101978704900C514D0 /* SCFloatingReindexerValueFactory.h */,
+				791BC6111978704900C514D0 /* SCFloatingReindexerValueFactory.m */,
+				791BC6121978704900C514D0 /* SCIntegerReindexerValueFactory.h */,
+				791BC6131978704900C514D0 /* SCIntegerReindexerValueFactory.m */,
+			);
+			name = "Value Factories";
+			sourceTree = "<group>";
+		};
+		791BC62D19796AA600C514D0 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				791BC62A19796A3D00C514D0 /* NSIndexPath+RowIndexSets.h */,
+				791BC62B19796A3D00C514D0 /* NSIndexPath+RowIndexSets.m */,
+			);
+			name = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,7 +278,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				791BC5EA19786FF900C514D0 /* ObjectReindexer.m in Sources */,
+				791BC6171978704900C514D0 /* SCFixedIntervalReindexer.m in Sources */,
+				791BC6181978704900C514D0 /* SCFloatingReindexerValueFactory.m in Sources */,
+				791BC6161978704900C514D0 /* SCFlexibleIntervalReindexer.m in Sources */,
+				791BC6191978704900C514D0 /* SCIntegerReindexerValueFactory.m in Sources */,
+				791BC6151978704900C514D0 /* SCObjectReindexer.m in Sources */,
+				791BC62C19796A3D00C514D0 /* NSIndexPath+RowIndexSets.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				791BC5FF19786FF900C514D0 /* ObjectReindexerTests.m in Sources */,
+				791BC6281978718500C514D0 /* SCObjectReindexerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +465,7 @@
 				791BC60419786FF900C514D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		791BC60519786FF900C514D0 /* Build configuration list for PBXNativeTarget "ObjectReindexerTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +474,7 @@
 				791BC60719786FF900C514D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
