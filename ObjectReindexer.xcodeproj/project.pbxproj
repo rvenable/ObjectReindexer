@@ -22,6 +22,7 @@
 		791BC6191978704900C514D0 /* SCIntegerReindexerValueFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 791BC6131978704900C514D0 /* SCIntegerReindexerValueFactory.m */; };
 		791BC6281978718500C514D0 /* SCObjectReindexerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 791BC6261978718500C514D0 /* SCObjectReindexerTests.m */; };
 		791BC62C19796A3D00C514D0 /* NSIndexPath+RowIndexSets.m in Sources */ = {isa = PBXBuildFile; fileRef = 791BC62B19796A3D00C514D0 /* NSIndexPath+RowIndexSets.m */; };
+		791BC62F19796CDE00C514D0 /* ObjectReindexer.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 791BC62E19796CDE00C514D0 /* ObjectReindexer.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		791BC6261978718500C514D0 /* SCObjectReindexerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCObjectReindexerTests.m; sourceTree = "<group>"; };
 		791BC62A19796A3D00C514D0 /* NSIndexPath+RowIndexSets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSIndexPath+RowIndexSets.h"; sourceTree = "<group>"; };
 		791BC62B19796A3D00C514D0 /* NSIndexPath+RowIndexSets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSIndexPath+RowIndexSets.m"; sourceTree = "<group>"; };
+		791BC62E19796CDE00C514D0 /* ObjectReindexer.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ObjectReindexer.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		791BC5D619786FF900C514D0 = {
 			isa = PBXGroup;
 			children = (
+				791BC62E19796CDE00C514D0 /* ObjectReindexer.podspec */,
 				791BC5E419786FF900C514D0 /* ObjectReindexer */,
 				791BC5F819786FF900C514D0 /* ObjectReindexerTests */,
 				791BC5E119786FF900C514D0 /* Frameworks */,
@@ -267,6 +270,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				791BC62F19796CDE00C514D0 /* ObjectReindexer.podspec in Resources */,
 				791BC5FD19786FF900C514D0 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
